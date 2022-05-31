@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PrimeNgModule } from './../prime-ng/prime-ng.module';
 
 import { BasicosComponent } from './pages/basicos/basicos.component';
 import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
@@ -13,7 +14,7 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
     NumerosComponent,
     OrdenarComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, PrimeNgModule],
   exports: [
     BasicosComponent,
     NoComunesComponent,
